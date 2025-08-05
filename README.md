@@ -20,7 +20,7 @@ This project demonstrates a simple multi-tier architecture deployed on Kubernete
 
 ## Service API URL
 
-- **Service API URL**: http://34.54.231.33/tech/session/schedule
+- **Service API URL**: http://35.190.34.152/tech/session/schedule
 
 ---
 
@@ -185,7 +185,7 @@ kubectl get secrets
 ```
 2. **Show an API call retrieving records from database:**
 ```bash
-curl --location 'http://34.54.231.33/tech/session/schedule'
+curl --location 'http://35.190.34.152/tech/session/schedule'
 ```
 3. **Kill API microservice pod and show it regenerates:**
 ```bash
@@ -196,5 +196,5 @@ kubectl get pods
 ```bash
 kubectl delete pod mongo-59232346f597-8wta5
 kubectl get pods
-curl --location 'http://34.54.231.33/tech/session/schedule'
+curl --location 'http://35.190.34.152/tech/session/schedule'
 ```
