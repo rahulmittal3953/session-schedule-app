@@ -35,11 +35,12 @@ session-schedule-app/
 │ └── Dockerfile
 │
 ├── k8s/ # Kubernetes YAMLs
-│ ├── mongo-secret.yaml
-│ ├── mongo-configmap.yaml
-│ ├── mongo-pv-pvc.yaml
+│ ├── secret.yaml
+│ ├── mongo-storage.yaml
+│ ├── mongo-pvc.yaml
 │ ├── mongo-deployment.yaml
-│ ├── app-configmap.yaml
+│ ├── mongo-service.yaml
+│ ├── configmap.yaml
 │ ├── app-deployment.yaml
 │ ├── app-service.yaml
 │ └── ingress.yaml
